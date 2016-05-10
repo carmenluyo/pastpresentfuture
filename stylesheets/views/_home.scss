@@ -322,3 +322,52 @@
     }
   }
 }
+
+/* CONTROLES DEL SLIDER */
+.carousel-control.left, .carousel-control.right {
+  background-color: transparent;
+  background-image: none;
+}
+
+/* slider services */
+
+.content_text_slider {
+  left: 0;
+  bottom: 0;
+  padding: 2em;
+  cursor: pointer;
+  z-index: 10000000000;
+  position: absolute;
+  border: 1px solid;
+  margin: 2em;
+  line-height: 20px;
+  font-size: 22px;
+  .title {
+    margin-bottom: 10px;
+  font-weight: bold;
+  }
+  span {
+    font-size: 18px;
+  }
+}
+
+.content_text_slider_gold {
+  @extend .content_text_slider;
+  color: #838357;
+  border: 0px;
+  .line {
+    border-bottom: solid;
+    width: 58px;
+    margin: 10px 0px;
+  }
+
+}
+.glyphicon-chevron-left:before, .glyphicon-chevron-right:before{
+  display: none;
+}
+.carousel-control .glyphicon-chevron-left {
+    margin-left: -60px;
+}
+.carousel-control .glyphicon-chevron-right {
+    margin-right: -60px;
+}
