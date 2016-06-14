@@ -6081,7 +6081,10 @@ a {
     background-color: #838357 !important;
     color: black !important;
     width: 65px !important;
-    font-size: 40px !important; } }
+    font-size: 40px !important; }
+
+  .magtop-10 {
+    margin-top: 10px !important; } }
 body {
   background-color: white;
   font-size: 15px; }
