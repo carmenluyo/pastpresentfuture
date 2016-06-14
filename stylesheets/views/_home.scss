@@ -370,4 +370,56 @@
 }
 .carousel-control .glyphicon-chevron-right {
     margin-right: -60px;
+
 }
+
+
+/* M O V I L */
+
+@media (max-width: 768px){
+  .img-right img {
+    margin: 0px ;
+      position: relative;
+  }
+  .img-left img {
+    margin: 0px ;
+  }
+  .logo-ppf {
+      margin: 0px;
+      z-index: 999999999999;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: -375px ;
+  }
+  .text_footer_home {
+    padding-bottom: 0px;
+    font-size: 15px;
+  }
+  .menu {
+      padding-left: 30px;
+      padding-right: 35px ;
+      margin-left: 15px;
+  }
+  #d2 {
+    margin-top: -100px;
+  }
+  .slide-yellow-2 {
+    height: auto;
+  }
+  .content__text {
+
+    .text {
+      font-size: 15px;
+      }
+    h5 {
+      font-size: 20px;
+      margin-top: 10px !important;
+    }
+
+  }
+ 
+  .text-large {
+    font-size: 25px;
+    color: #838357;
+  }
+ }
