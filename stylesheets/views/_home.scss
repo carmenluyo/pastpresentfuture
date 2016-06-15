@@ -254,7 +254,7 @@
 
 
 .contact {
-  color: white;
+  color: white !important;
   font-size: 100px;
   font-weight: bold;
   padding-top: 110px;
@@ -472,5 +472,8 @@
   }
   .magtop-10 {
       margin-top: 10px !important;
+  }
+  .carousel-control .glyphicon-chevron-right {
+    margin-right: 0px;
   }
  }
