@@ -5684,10 +5684,6 @@ a {
   vertical-align: middle;
   width: 100%; }
 
-.home {
-  width: 100%;
-  height: 100%; }
-
 .icon-facebook {
   background-color: #838357 !important;
   color: black !important;
@@ -5753,7 +5749,8 @@ a {
 
 .img-star {
   position: fixed;
-  padding: 1em 1em; }
+  padding: 1em 1em;
+  z-index: 999999999; }
 
 /* nav */
 .menu {
